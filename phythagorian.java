@@ -1,5 +1,5 @@
 
-package eular;
+package Q9;
 
 import java.util.Scanner;
 public class phythagorian
