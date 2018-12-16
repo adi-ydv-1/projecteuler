@@ -1,5 +1,5 @@
 
-package eular;
+package Q5;
 
 import java.util.Scanner;
 public class multiple 
