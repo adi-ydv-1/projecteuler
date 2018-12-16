@@ -1,5 +1,5 @@
 
-package eular;
+package Q4;
 
 import java.util.Scanner;
 public class palindrome 
