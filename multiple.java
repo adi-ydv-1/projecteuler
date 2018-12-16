@@ -8,7 +8,7 @@ public class multiple
     {
         int i,j,m=0;boolean f=false;
         Scanner sc=new Scanner(System.in);
-        for(i=1;i<99999999999999999l;i++)
+        for(i=1; ;i++)
         {
           for(j=1;j<=20;j++) 
           {
@@ -28,7 +28,7 @@ public class multiple
             
             
         }
-        System.out.println("largest multiple "+m);
+        System.out.println("smallest multiple "+m);
         
     }
     
