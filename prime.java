@@ -1,5 +1,5 @@
 
-package eular;
+package Q7;
 
 import java.util.Scanner;
 public class prime
