@@ -1,5 +1,5 @@
 
-package eular;
+package Q6;
 
 import java.util.Scanner;
 public class square
