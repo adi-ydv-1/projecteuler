@@ -1,5 +1,5 @@
 
-package eular;
+package Q3;
 import java.util.Scanner;
         
 public class primefactor 
