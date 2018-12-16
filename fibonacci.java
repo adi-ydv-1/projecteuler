@@ -1,5 +1,5 @@
 
-package eular;
+package Q2;
 
 import java.util.Scanner;
 public class fibonacci
