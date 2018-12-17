@@ -1,6 +1,5 @@
 
 package Q3;
-import java.util.Scanner;
         
 public class primefactor 
 {
@@ -11,8 +10,6 @@ public class primefactor
         long max=0;
         long i;long j=2l,x=0;boolean f=false;
         int c=0;   
-        Scanner sc=new Scanner(System.in);
-        
         
         
         for(i=2;i<600851475143l;i++)
@@ -31,7 +28,7 @@ public class primefactor
                     break;
                     }
                     j++;          
-                }
+          
                 if(f==false&&i>max)
                 {
                      
