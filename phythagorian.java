@@ -1,14 +1,11 @@
 
 package Q9;
-
-import java.util.Scanner;
 public class phythagorian
 {
     public static void main(String args[])
     {
         int a,b,c,product=1,k=0;
-        Scanner sc=new Scanner(System.in);
-        for(a=1;a<1000;a++)
+      loop1:for(a=1;a<1000;a++)
         {
             
             for(b=a+1;b<1000;b++)
@@ -32,28 +29,9 @@ public class phythagorian
                     }
                 }
                     if(k==1)
-                      break;   
+                      break loop1;   
             }  
-                     if(k==1)
-                       break;
-          }    
-                
-                
-                
-            
-               System.out.println("product of a,b,c is "+product);
-            
-            
-            
-            
-            
-        
-        
-        
-        
-        
-        
-        
-        
+         }    
+               System.out.println("product of a,b,c is "+product);       
     }
 }
