@@ -1,13 +1,10 @@
 
 package Q6;
-
-import java.util.Scanner;
 public class square
 {
     public static void main(String args[])
     {
        long i,sum1=0,sum2=0,sum=0;
-        Scanner sc=new Scanner(System.in);
         for(i=1;i<=100;i++)
         {
             sum1=sum1+(i*i);
