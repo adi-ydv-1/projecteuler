@@ -1,13 +1,11 @@
 
 package Q5;
 
-import java.util.Scanner;
 public class multiple 
 {
     public static void main(String args[])
     {
         int i,j,m=0;boolean f=false;
-        Scanner sc=new Scanner(System.in);
         for(i=1; ;i++)
         {
           for(j=1;j<=20;j++) 
@@ -30,20 +28,6 @@ public class multiple
         }
         System.out.println("smallest multiple "+m);
         
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }    
     
 }
