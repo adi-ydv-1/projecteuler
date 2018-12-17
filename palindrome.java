@@ -1,14 +1,10 @@
 
 package Q4;
-
-import java.util.Scanner;
 public class palindrome 
 {
     public static void main(String args[])
     {
         int i=0,j=0,m,n,sum=0,z,max=0;
-    
-        Scanner sc=new Scanner(System.in);
         for(i=100;i<=999;i++)
         {
             for(j=100;j<=999;j++)
