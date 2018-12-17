@@ -1,15 +1,11 @@
 
 package Q2;
 
-import java.util.Scanner;
 public class fibonacci
 {
     public static void main(String args[])
     {
        long k=1,a=0,b=1;long sum=0,c=0;
-    
-    
-        Scanner sc=new Scanner(System.in);
         while(c<=4000000)
         {
             c=a+b;
