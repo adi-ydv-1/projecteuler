@@ -1,6 +1,4 @@
 package Q8;
-
-import java.util.Scanner;
 public class product 
 {
     public static void main(String args[])
@@ -17,7 +15,6 @@ public class product
                 "05886116467109405077541002256983155200055935729725"+"71636269561882670428252483600823257530420752963450";
                 int i,j,k=0,z=0;long product1=1,product=0;
                 
-                Scanner sc=new Scanner(System.in);
                  for(i=0;i<1000;i++)
                  {
                      z++;
