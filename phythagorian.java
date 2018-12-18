@@ -11,9 +11,8 @@ public class phythagorian
             for(b=a+1;b<1000;b++)
             {
                 
-                for(c=b+1;c<1000;c++)
-                {
-                    
+                c=(int)Math.sqrt(a*a+b*b);
+    
                     
                     if(a+b+c==1000&&a<b&&b<c)   
                     {
@@ -22,15 +21,14 @@ public class phythagorian
                         {
                             product=a*b*c;
                             
-                            k++;
-                            break;
+                            
+                            break loop1;
                             
                         }   
                     }
                 }
-                    if(k==1)
-                      break loop1;   
-            }  
+                    
+              
          }    
                System.out.println("product of a,b,c is "+product);       
     }
