@@ -6,7 +6,7 @@ public class prime
     public static void main(String args[])
     {
         int i,j=2,k=0,m=0;boolean f=false;
-        for(i=2; ;i++)
+        for(i=2;123456789 ;i++)
         {
             while(j<i)
             {
