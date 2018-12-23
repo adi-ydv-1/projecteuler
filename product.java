@@ -17,12 +17,6 @@ public class product
                 
                  for(i=0;i<1000;i++)
                  {
-                     z++;
-                    if(z==50){
-                        i++;
-                    z=0;
-                    }
-                     
                     for(j=i+1;j<1000;j++) 
                     {
                         
@@ -40,8 +34,7 @@ public class product
                             product1=product1*(Integer.parseInt(c));
                             
                         }
-                           if(product1>product)
-                           
+                           if(product1>product) 
                              product=product1;
                            
                                             
