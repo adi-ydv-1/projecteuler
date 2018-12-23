@@ -6,7 +6,7 @@ public class multiple
     public static void main(String args[])
     {
         int i,j,m=0;boolean f=false;
-        for(i=1; ;i++)
+        for(i=1;9999999999999999999l;i++)
         {
           for(j=1;j<=20;j++) 
           {
