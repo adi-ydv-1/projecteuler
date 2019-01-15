@@ -2,26 +2,32 @@
 package Q7;
 public class prime
 {
-    public static void main(String args[])
-    {
-	        int i,j,k=0;
-	       for(i=2; ;i++)
-	        {
-	    	   j=2;
-	            while(j<i)
-	            {
-	                if(i%j==0)
-	                {
-	                	k++;
-	                	break;
-	               	}
-	               j++;      
-	            }
-	            if(i-k-1==10001)
-	             {
-	            	   System.out.println("10001 prime no is "+i); 
-	            	   break; 
-	             }
-             }
-    }
+     public static void main(String args[])
+     {
+		   int count=0;
+             for(int i=2; ;i++)
+             {
+            	 
+            	 if(prime(i)==true) 
+            		 count++;
+            	 if(count==10001) {
+            		 System.out.println(i);
+            		break; 
+            	 }
+            }
+     }
+	    
+	  static boolean prime(int i)
+	  {
+		  boolean f=true;int count=0;
+		  for(int j=2;j<i;j++)
+		  {
+			  if(i%j==0) {
+				  f=false;
+			  break;
+			  }
+		  }
+		   return f;
+		  
+	  }
 }
