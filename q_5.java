@@ -3,20 +3,27 @@ package Q5;
 
 public class multiple 
 {
-   public static void main(String args[])
+    public static void main(String args[])
 	    {
-		 long j=2,i;boolean b=true;
-	      while(b==true)
+	       for(int i=1; ;i++)
 	       {
-	    	   long m=20;j++;
-	    	   while(m>=1)
-	    	   {
-	    		   if(b=(j%m!=0?true:false)==true)
-	    			   break;
-	    		   m--;
+	    	   if(multiple(i)==true) {
+	    		   System.out.println(i);
+	    	       break;
 	    	   }
-	       }
-	       System.out.println(j);
-	    }    
-	    
+	       }  
+	    }
+	static  boolean multiple(int i)
+	{
+		boolean f=true;
+		for(int j=20;j>=1;j--)
+		{
+			if(i%j!=0) {
+			f=false;
+			break;
+			}
+		}
+		return f;
+	}
+	  
 }
