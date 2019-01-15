@@ -5,9 +5,9 @@ public class palindrome
     public static void main(String args[])
     {
         int i=0,j=0,m,n,sum=0,z,max=0;
-        for(i=100;i<=999;i++)
+        for(i=999;i>=100;i--)
         {
-            for(j=100;j<=999;j++)
+            for(j=999;j>=100;j--)
             {
                 m=i*j;
                 while(m>0)
@@ -24,15 +24,6 @@ public class palindrome
             }
             
         }
-        System.out.println("largest palindrome from product of three digit is "+max);
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        System.out.println("largest palindrome from product of three digit is "+max);   
 }
 }
