@@ -4,26 +4,24 @@ package Q5;
 public class multiple 
 {
     public static void main(String args[])
-	    {
-	       for(int i=1; ;i++)
+    {
+		 int i,j;
+	       for(i=21; ;i++)
 	       {
-	    	   if(multiple(i)==true) {
+	    	   boolean f=true;
+	    	   for( j=20;j>=1;j--)
+	            {
+	   			if(i%j!=0) 
+	   			{
+	   			f=false;
+	   			break;
+	   			}
+	            }
+	    	   if(f==true) {
 	    		   System.out.println(i);
-	    	       break;
+	    	   break;
 	    	   }
-	       }  
-	    }
-	static  boolean multiple(int i)
-	{
-		boolean f=true;
-		for(int j=20;j>=1;j--)
-		{
-			if(i%j!=0) {
-			f=false;
-			break;
-			}
-		}
-		return f;
+	     }  
 	}
 	  
 }
