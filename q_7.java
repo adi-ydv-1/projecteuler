@@ -2,32 +2,30 @@
 package Q7;
 public class prime
 {
-     public static void main(String args[])
-     {
+      public static void main(String args[])
+	    {
 		   int count=0;
              for(int i=2; ;i++)
              {
-            	 
-            	 if(prime(i)==true) 
+            	 if(prime(i)==(int)(Math.sqrt(i)+1)) 
             		 count++;
             	 if(count==10001) {
             		 System.out.println(i);
             		break; 
             	 }
             }
-     }
+  }
 	    
-	  static boolean prime(int i)
+	  static int prime(int i)
 	  {
-		  boolean f=true;int count=0;
-		  for(int j=2;j<=i/2;j++)
+		  int j=0;
+		  for(j=2;j<=Math.sqrt(i);j++)
 		  {
 			  if(i%j==0) {
-				  f=false;
 			  break;
 			  }
 		  }
-		   return f;
+		   return j;
 		  
 	  }
 }
