@@ -7,7 +7,7 @@ public class prime
 		   int count=0;
              for(int i=2; ;i++)
              {
-            	 if(prime(i)==(int)(Math.sqrt(i)+1)) 
+            	 if(prime(i)==false) 
             		 count++;
             	 if(count==10001) {
             		 System.out.println(i);
@@ -16,16 +16,17 @@ public class prime
             }
   }
 	    
-	  static int prime(int i)
+	  static boolean prime(int i)
 	  {
-		  int j=0;
+		  int j=0;boolean f=false;
 		  for(j=2;j<=Math.sqrt(i);j++)
 		  {
 			  if(i%j==0) {
+				  f=true;
 			  break;
 			  }
 		  }
-		   return j;
+		   return f;
 		  
 	  }
 }
