@@ -5,26 +5,17 @@ public class primefactor
  public static void main(String args[])
 	    {	        
 	        long i;long j=2,x=0;
-	             
-	        loop1:for(i=1000000;i>=0;i--)
-	        {
-	            if(600851475143l%i==0)         
-	            {
-	                while(j<i)
-	                {
-	                    if(i%j==0)                
-	                    break;
-	                    j++;          
-	                }
-	                if(j==i)
-                        {
-	                  System.out.println("Largest prime factor of "  +i);	
-	                  break loop1;   
-	                }
-	            }
-	            j=2;
-	        }
-	         
-
+	 long n=600851475143;
+	 long c=Math.sqrt(n);int ans=0;
+	 for(i=2;i<=c;i++)
+	 {
+		 if(n%i==0)
+		 {
+			 ans=i;
+			 n=n/i;
+			 i--;
+		 }		 
+	 }
+	 System.out.println(ans);     
  }          
 }
